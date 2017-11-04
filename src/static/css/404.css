@@ -1,0 +1,50 @@
+.fof-wrapper {
+  transform: translate(-50%) translateY(-50%);
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 2em;
+  width: 650px;
+}
+
+.one,
+.two {
+  float: left;
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+  color: #fff;
+  position: relative;
+  opacity: 0.5;
+}
+
+.one {
+  background-color: #e67e22;
+}
+
+.two {
+  background-color: #f1c40f;
+  margin-left: -150px;
+  z-index: -1;
+}
+
+.one span,
+.two span,
+.three {
+  width: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  transform: translateX(-85%) translateY(-50%);
+}
+
+.two span {
+  transform: translateX(-15%) translateY(-50%);
+}
+
+.three {
+  transform: translateX(-50%) translateY(-50%);
+  color: #fff;
+}
