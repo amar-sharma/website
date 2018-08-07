@@ -21,9 +21,9 @@ body {
 }
 
 .container {
-    max-width: 1200px;
+    max-width: 1024px;
     min-width: 250px;
-    width: 70%;
+    width: 80%;
     margin: auto;
     padding: 15px;
 }
@@ -33,7 +33,7 @@ body {
     text-decoration: none;
     float: left;
     padding: 30px;
-    width: 30%;
+    width: 20%;
     position: relative;
 }
 
@@ -101,12 +101,12 @@ pre {
         width: 100%;
         height: auto;
         top: 5%;
-        padding: 0px;
+        padding: 0;
     }
 
     nav {
         width: 100%;
-        top: 0px;
+        top: 0;
         left: auto;
         transform: none;
     }
@@ -127,6 +127,6 @@ pre {
     }
 
     .h1 {
-        margin: 0px;
+        margin: 0;
     }
 }

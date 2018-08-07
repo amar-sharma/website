@@ -19,23 +19,18 @@ func NotFoundHandler(w http.ResponseWriter, r *http.Request) {
 	renderTemplate(w, "404")
 }
 
-func BlogHandler(w http.ResponseWriter, r *http.Request, title string) {
-	renderTemplate(w, "blog")
-}
-
 func ProjectHandler(w http.ResponseWriter, r *http.Request, title string) {
 	renderTemplate(w, "projects")
 }
 
-
 func renderTemplate(w http.ResponseWriter, tmpl string) {
 	var templates = template.Must(
-    template.ParseFiles(
-      "tmpl/home.html",
-      "static/404.html",
-      "tmpl/contact.html",
-      "tmpl/blog.html",
-      "tmpl/projects.html"))
+		template.ParseFiles(
+			"tmpl/home.html",
+			"static/404.html",
+			"tmpl/contact.html",
+			"tmpl/blog.html",
+			"tmpl/projects.html"))
 	err := templates.ExecuteTemplate(w, tmpl+".html", "")
 	if err != nil {
 		http.Error(w, err.Error(), http.StatusInternalServerError)

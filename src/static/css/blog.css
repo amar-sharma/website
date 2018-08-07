@@ -1,0 +1,56 @@
+.posted {
+    color: gray;
+    float: left;
+    width: 160px;
+    text-align: right;
+    margin-right: 40px;
+    margin-top: 1em;
+}
+
+.container{
+    padding: 15px 0;
+}
+
+.container h1 {
+    margin: 60px 0 50px auto;
+}
+
+.blogpost {
+    margin-bottom: 30px;
+}
+
+.blogpost div {
+    display: inline-block;
+}
+
+.blogpost div h2 {
+    color: black;
+    font-size: 2em;
+    margin: 0;
+}
+
+.desc {
+    max-width: 800px;
+}
+
+@media all and (max-width: 1024px) {
+    .container h1 {
+        margin-top: 100px;
+        margin-bottom: 30px;
+        font-size: 1.5em;
+    }
+
+    .container {
+        width: 95%;
+        font-size: 1em;
+    }
+    .posted {
+        text-align: left;
+    }
+
+    .blogpost div h2 {
+        color: black;
+        font-size: 1.5em;
+        margin: 0;
+    }
+}

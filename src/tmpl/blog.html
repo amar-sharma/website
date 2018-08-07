@@ -2,21 +2,39 @@
 <html>
 
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Blog by Amar Sharma">
-  <meta name="keywords" content="">
-  <meta name="author" content="Amar Sharma">
-  <title>Amar Sharma | Blog</title>
-  <link rel="stylesheet" href="/static/css/main.css">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Blog by Amar Sharma">
+    <meta name="keywords" content="blog machine-learning AI">
+    <meta name="author" content="Amar Sharma">
+    <title>Amar Sharma | Blog</title>
+    <link rel="stylesheet" href="/static/css/main.css">
+    <link rel="stylesheet" href="/static/css/blog.css">
 </head>
 
 <body>
-  <div class="container">
+{{template "sidebar"}}
+<div class="container">
+
     <h1>Blog by Amar Sharma</h1>
-    <p>Coming Soon stay tuned!</p>
-  </div>
+    <ul>
+    {{range $i, $blog := .Blogs}}
+        <li>
+            <div class="blogpost">
+                <div class="posted">{{$blog.Posted}}</div>
+                <div>
+                    <h2><a target="_blank"
+                           href={{$blog.Link}}>{{$blog.Title}}</a></h2>
+                    <div class="desc">
+                    {{$blog.Desc}}
+                    </div>
+                </div>
+            </div>
+        </li>
+    {{end}}
+    </ul>
+</div>
 </body>
 
 </html>

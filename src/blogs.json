@@ -1,0 +1,14 @@
+[
+  {
+    "link": "https://medium.com/@amarsharma/first-impression-of-deep-learning-with-fast-ai-cfad4639792b",
+    "title": "First impression of Deep Learning with fast.ai",
+    "posted": "August 7, 2018",
+    "desc": "This post is about my introduction to Machine Intelligence and encouragement to other people who are unfamiliar and are of all other fields to try Machine Learning as it is now quite mature and easy to do simple classifications and predictions using Deep learning. So if you’re a ML/AI hotshot my next post will be much more amusing than this one!"
+  },
+  {
+    "link": "http://www.connecto.io/blog/testing-your-website-with-phantomjs/",
+    "title": "Testing your website with PhantomJs",
+    "posted": "June 12, 2014",
+    "desc": "This post is about brief introduction to how you can test your websites using PhantomJs with an example to test and change LinkedIn website."
+  }
+]
