@@ -1,6 +1,7 @@
 #!/bin/bash
-export GOPATH="/Users/amarsharma/Dev/website"
+export GOPATH="/home/legitderank/website"
+mkdir bin
 cd bin
-go build app
+/usr/local/go/bin/go build app
 cd ../src
 ../bin/app
