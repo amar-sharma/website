@@ -21,7 +21,6 @@ body {
 }
 
 .container {
-    max-width: 1024px;
     min-width: 250px;
     width: 80%;
     margin: auto;
@@ -96,7 +95,7 @@ pre {
     color: #999;
 }
 
-@media all and (max-width: 1024px) {
+@media all and (max-width: 800px) {
     .sidebar {
         width: 100%;
         height: auto;
@@ -114,7 +113,7 @@ pre {
     .sidebar nav li {
         text-align: center;
         display: inline-block;
-        width: 24%;
+        width: 23%;
     }
 
     .container {
