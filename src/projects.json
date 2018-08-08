@@ -1,0 +1,38 @@
+[
+  {
+    "link": "https://legitderank.me",
+    "title": "LegitDerank™",
+    "icon": "https://scontent-bom1-1.xx.fbcdn.net/v/t1.0-9/30713645_188679481761534_918234449919868928_n.png?_nc_cat=0&oh=64063951a50e45438a5f9fbd59397a7e&oe=5BFE8B1A",
+    "desc": "Currently running side project/product which helps Counter Strike Global Offensive players Derank without spending hours in front of their PCs doing same thing over and over again to achieve low competitive rank. Used ML and AI tools to build automation for deranking."
+  },
+  {
+    "link": "https://jsonbin.io",
+    "title": "JSONBin",
+    "icon": "https://jsonbin.io/images/favicon.ico",
+    "desc": "Currently running side project/product which provides easy API based JSON storage for rapid prototyping of projects."
+  },
+  {
+    "link": "https://github.com/amar-sharma/image-datapipeline",
+    "title": "Scalable Data Pipeline for image processing",
+    "icon": "https://github.com/favicon.ico",
+    "desc": "Project uses Apache Spark to process image dataset uploaded to HDFS to feed to Machine Learning training models. This project process (resize, rotate, etc) huge number of images given by user in distributed fashion."
+  },
+  {
+    "link": "https://github.com/amar-sharma/website",
+    "title": "Website amarsharma.in",
+    "icon": "https://github.com/favicon.ico",
+    "desc": "Source code for this website under GPL license."
+  },
+  {
+    "link": "https://github.com/amar-sharma/piguard",
+    "title": "PiGuard",
+    "icon": "https://github.com/favicon.ico",
+    "desc": "Toy project to send an email whenever somebody enters my room when I am in office using PIR motion detector and Rpi Camera with Raspberry Pi"
+  },
+  {
+    "link": "https://github.com/amar-sharma/CTF14",
+    "title": "Capture The Flag",
+    "icon": "https://github.com/favicon.ico",
+    "desc": "Webapp for Capture The Flag event at my university IIT Patna, the competition has carefully designed puzzles on web vulnerability, cryptography and system vulnerabilities. Each participant need to get the hidden flag from the puzzle to win the competition"
+  }
+]

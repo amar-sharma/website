@@ -19,10 +19,6 @@ func NotFoundHandler(w http.ResponseWriter, r *http.Request) {
 	renderTemplate(w, "404")
 }
 
-func ProjectHandler(w http.ResponseWriter, r *http.Request, title string) {
-	renderTemplate(w, "projects")
-}
-
 func renderTemplate(w http.ResponseWriter, tmpl string) {
 	var templates = template.Must(
 		template.ParseFiles(
